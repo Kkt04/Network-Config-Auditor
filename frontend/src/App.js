@@ -100,9 +100,7 @@ function App() {
               </svg>
             </div>
             <div className="ml-3">
-              {/* <h3 className="text-sm font-medium text-blue-800">Milestone 2 Prototype</h3> */}
               <div className="mt-1 text-sm text-blue-700">
-                {/* <p>Authors: Kalash Kumari Thakur (230136), Manasa Chinnam (230078)</p> */}
                 <p className="mt-1">This prototype demonstrates configuration parsing and security vulnerability detection.</p>
               </div>
             </div>
