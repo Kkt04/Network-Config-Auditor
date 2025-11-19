@@ -23,7 +23,7 @@ The system automatically adapts to routers based on available protocols (HTTP, H
 
 ### Main Server (`server.js`)
 
-- Express.js REST API (Port **5003**)
+- Express.js REST API (Port **3000**)
 - CORS enabled
 - Organized into three route groups:
   - `/api/scan` – Network scanning
