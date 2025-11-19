@@ -33,21 +33,21 @@ The system automatically adapts to routers based on available protocols (HTTP, H
 ---
 
 ## 📁 Backend Folder Structure
-
 backend/
-├── server.js # Main Express server
+├── server.js                    # Main Express server
 ├── src/
-│ ├── routes/
-│ │ ├── network.js # WiFi scanning & router analysis routes
-│ │ ├── scan.js # Network scanning routes
-│ │ └── analyze.js # Config file analysis routes
-│ ├── services/
-│ │ ├── wifiScanner.js # WiFi network detection
-│ │ ├── routerDetector.js # Router detection & config fetching
-│ │ ├── analyzer.js # Router security analysis engine
-│ │ └── sshClient.js # SSH client module
-│ └── utils/
-│ └── helpers.js # Utility functions
+│   ├── routes/
+│   │   ├── network.js          # WiFi scanning & router analysis routes
+│   │   ├── scan.js             # Network scanning routes
+│   │   └── analyze.js          # Config file analysis routes
+│   ├── services/
+│   │   ├── wifiScanner.js      # WiFi network detection
+│   │   ├── routerDetector.js   # Router detection & config fetching
+│   │   ├── analyzer.js         # Router security analysis engine
+│   │   └── sshClient.js        # SSH client module
+│   └── utils/
+│       └── helpers.js          # Utility functions
+
 
 ---
 
