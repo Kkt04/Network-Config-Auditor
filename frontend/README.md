@@ -126,7 +126,7 @@ Custom colors:
 
 **Port 3000 already in use:**
 ```bash
-PORT=3001 npm start
+PORT=3000 npm start
 ```
 
 **Backend connection error:**
